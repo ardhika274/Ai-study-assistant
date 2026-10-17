@@ -1,7 +1,7 @@
 import json
 import re
 
-import fitz
+import pymupdf as fitz
 import requests
 import streamlit as st
 
