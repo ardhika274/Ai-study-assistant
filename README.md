@@ -1,48 +1,47 @@
 # AI Study Assistant
 
-A student-focused AI web application that helps learners study from PDFs.
+A web-based AI study assistant that helps students learn from PDF notes.
+
+## Live Demo
+
+[Open the live application](https://ai-study-assistant-qx8bchyo2vhr6lnvwdjwlz.streamlit.app/)
 
 ## Features
 
-- Upload a text-based PDF
-- Generate a summary
+- Upload study PDFs
+- Generate fast summaries
 - Create practice questions
 - Explain difficult topics
-- Chat with PDF notes
-- Generate and take MCQ quizzes
+- Chat with uploaded study material
+- Generate and attempt MCQ quizzes
 
-## Built With
+## Technologies Used
 
 - Python
 - Streamlit
 - PyMuPDF
 - Ollama Cloud API
+- GitHub
+- Streamlit Community Cloud
 
-## Run Locally
+## How It Works
 
-1. Clone this repository
-2. Install packages:
+1. The user uploads a study PDF.
+2. The application extracts text from the PDF.
+3. The extracted content is sent to the AI service.
+4. The AI generates summaries, questions, explanations, or quiz content.
+5. The result is displayed in the Streamlit interface.
 
-```bash
-python -m pip install -r requirements.txt
-```
+## Privacy Notice
 
-3. Create `.streamlit/secrets.toml`:
+Users should not upload passwords, personal IDs, medical records, confidential college documents, or private examination papers.
 
-```toml
-OLLAMA_API_KEY = "your-api-key"
-```
+AI-generated answers may contain mistakes. Users should verify important information using their original notes.
 
-4. Run:
+## Project Status
 
-```bash
-python -m streamlit run app.py
-```
-
-## Important
-
-Do not upload confidential documents. AI outputs may contain mistakes, so verify answers with the original PDF.
+This is an early public version. Feedback and improvements are welcome.
 
 ## Developer
 
-Built by Ardhika Sirothia.
+Built by Ardhika274.
